@@ -5,7 +5,7 @@ async function getImages() {
     let options = {
         headers: {
             'Accept': 'application/vnd.github.v3+json',
-            'Authorization': 'token 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'
+            'Authorization': 'Basic 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'
         }
     };
     let isExist = true;
